@@ -63,9 +63,12 @@ Why isn't there a a way to describe need env with ffmpeg, PHP 8, mysql .. ?
 Ok docker comes close. But even here sometimes you want to mix and create an
 env based on a configuration.
 
-
 Want to stay up to date?
 =======================
 
 https://github.com/MarcWeber/crossy/issues/1
 put a comment here what you care about.
+
+The future
+===========
+/bin/(await gols) -> no idea :)
