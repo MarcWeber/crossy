@@ -99,7 +99,11 @@ you feel experimental ..
 
 So i want a language with lisp like features code = data blurring the lines
 between package management, jitting, aot, interpreted cause honestly vscode
-starts faster than any make build ...
+starts faster than any make build but blurring the line between compile time
+and execution. Because tools like wordpress are an eco system whithin which compliation of resources (eg JS/CSS compression unifying ..) should happen.
+So a simple hybrid between Wordpress and Qwik City arleady shows that *NO* tool I know and care about is up to the task. Cause Haskell like doesn't have best performance. And all others have compile time type checking only. But what you want is
+shipping *SOME* types and then based on the asssemble more code and type check
+against the interface at runtime eventually.
 
 And https://github.com/mun-lang/mun shows you can have hot reloading on structs
 and function bodies native and webassembly.
