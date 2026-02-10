@@ -1,4 +1,5 @@
 My background is
+=====================
 - gentoo
 - nixpkgs/nixos
 - others
@@ -6,6 +7,7 @@ My background is
 ...
 
 The requirements of today:
+=====================
 - use as much from whatever OS you are on,
   augment with whatever is most favorite package manager
   augment with compile from source (most likely to fail)
@@ -24,6 +26,7 @@ Its seriously no longer clear who is responsible to install a typescript or go l
 - ..
 
 So how to cope with that ? My vision for the future is:
+=======================================================
 
     environment = 
         with osx
@@ -33,8 +36,10 @@ So how to cope with that ? My vision for the future is:
 
     environment.install(x)
     environment.install(y)
-
     ....
+
+Its not even clear whether you want a stateful environment (x install)
+or a declarative one (write config, then run update). You might want both.
 
 So that everybody can choose what works for him.
 even brew vs nix vs gentoo whatever. Like installing C++ can be done by
@@ -57,3 +62,10 @@ Because the cross platform tools are missing ?
 Why isn't there a a way to describe need env with ffmpeg, PHP 8, mysql .. ?
 Ok docker comes close. But even here sometimes you want to mix and create an
 env based on a configuration.
+
+
+Want to stay up to date?
+=======================
+
+https://github.com/MarcWeber/crossy/issues/1
+put a comment here what you care about.
