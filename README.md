@@ -49,3 +49,11 @@ The same code could be used in many different contexts
 
 Imagine Python library with C and Rust dependencies cross compiled to
 Android with ~/Android/SDK_3 and ~/Vulkan/SDK-5
+
+
+Why is there no install-from-github-readme.md name/repo ?
+Because the cross platform tools are missing ?
+
+Why isn't there a a way to describe need env with ffmpeg, PHP 8, mysql .. ?
+Ok docker comes close. But even here sometimes you want to mix and create an
+env based on a configuration.
