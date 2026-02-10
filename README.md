@@ -72,3 +72,18 @@ put a comment here what you care about.
 The future
 ===========
 /bin/(await gols) -> no idea :)
+
+  
+crazy cases
+============
+Todays dev envs are crazy complicated eg Nvim with nixos and either puppeteer
+like  or prisma its even about syncing nixpkgs version with your package.json
+because you have to sync some c dependencies !
+
+Sometimes its best to drop nix* like and be done I agree. Putting an ego aside.
+
+vscode / remote editing
+===========================
+Now plugins in the future should be installed on remote locations with
+different compiler toolchains and architectures ? vscode solved it by
+installing and stickting to nodejs ..
