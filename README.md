@@ -87,3 +87,39 @@ vscode / remote editing
 Now plugins in the future should be installed on remote locations with
 different compiler toolchains and architectures ? vscode solved it by
 installing and stickting to nodejs ..
+
+
+The future languages
+=======================
+Rust -> no lazy loading in browser
+Go -> no openxr support (VR) ? Yes you could .. but nobody did
+Lua -> jitting not on all architectures .. ok maybe is good enough.
+Julia -> No GC, requires ahead of time compliation for mobile. Yes possible if
+you feel experimental ..
+
+So i want a language with lisp like features code = data blurring the lines
+between package management, jitting, aot, interpreted cause honestly vscode
+starts faster than any make build ...
+
+And https://github.com/mun-lang/mun shows you can have hot reloading on structs
+and function bodies native and webassembly.
+
+So its imaginable to have a package dependency system describe the linux kernel,
+hot patch it. Or use fast compilation till you're up and running.
+Then have a second pass with clang getting the last 10% of performance boost
+most don't really care about ... 
+
+If you had buck2 like (full dependency tree packages and files) you can replace and patch functions and reload web servers anything.
+
+I agree that provisioning systems and just replacing VMs is another way.
+
+But the option to mix and history with master to provide legacy support eg old
+file systems sounds interesting to me.
+
+Systems like fuchsia os just reference files and download them.
+And China is using harmony os which means you can send something to a service
+on your PC and that will then fetch the package and start running it with
+correct architecture. But fuchsia was only shipped on one product. Looks like
+Android is here to stay in western world.
+
+
